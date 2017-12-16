@@ -15,6 +15,7 @@ group :production do
 end
 
 group :development, :test do
+  gem "letter_opener"
   gem 'puma'
   gem 'sqlite3'
   gem 'listen', '>= 3.0.5', '< 3.2'
